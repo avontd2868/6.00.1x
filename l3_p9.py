@@ -37,24 +37,21 @@ print "Please think of a number between 0 and 100!"
 
 while True:
 
-    print "\nIs your secret number " + str(guess) + "?"
-    print "Enter 'h' to indicate the guess is too high." 
-    print "Enter 'l' to indicate the guess is too low." 
-    print "Enter 'c' to indicate I guessed correctly."
-    hint = raw_input("\n> ")
+    print "Is your secret number " + str(guess) + "?"
+    print "Enter 'h' to indicate the guess is too high. Enter 'l' to indicate the guess is to low. Enter 'c' to indicate I guessed correctly.",
+    hint = raw_input()
 
     if hint == 'h':
-    	high = guess
+        high = guess
     elif hint == 'l':
-    	low = guess
+        low = guess
     elif hint == 'c':
-    	print "Game over. Your secret number was: " + str(guess)
-    	break
+        print "Game over. Your secret number was: " + str(guess)
+        break
     else:
-    	"Say what?"
+    	print "Sorry, I did not understand your input."
+        continue
 
     guess = (high + low) / 2
-
-
 
 
