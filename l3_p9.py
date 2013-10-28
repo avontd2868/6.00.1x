@@ -2,8 +2,7 @@
 
 '''
 
-Prompt user for number between 0 and 100
-     raw_input(secret_number)
+Ask user to guess a number between 0 and 100.
 
 Guess secret_number with user hints and bisection search:
 
