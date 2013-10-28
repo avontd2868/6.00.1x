@@ -1,4 +1,4 @@
-x = 20398402394
+x = 25
 epsilon = 0.01
 numGuesses = 0
 low = 0.0
