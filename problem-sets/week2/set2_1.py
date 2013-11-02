@@ -4,6 +4,9 @@
 # minimum monthly payment required by the cc company each month.
 
 total = 0
+annualInterestRate = 0.2
+balance = 3329
+monthlyPaymentRate = 0.02
 
 for month in range(1,13):
 	print "Month: %d" % month

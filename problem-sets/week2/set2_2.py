@@ -1,7 +1,3 @@
-# Problem Set 2, #2: Paying Debt Off in a Year
-# Calculate the minimum fixed monthly payment needed in order to pay off 
-# credit card balance within 12 months.
-
 # Week2, Problem Set 2, #1: Paying the Minimum
 #
 # Calculate the credit card balance after one year if a person only pays the
