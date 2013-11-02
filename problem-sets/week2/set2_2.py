@@ -12,7 +12,6 @@ def finalBalance(balance,lowestPayment):
 		minimumMonthlyPayment = balance * monthlyInterestRate
 		monthlyUnpaidBalance = balance - lowestPayment
 		balance = monthlyUnpaidBalance + (monthlyInterestRate * monthlyUnpaidBalance)
-		print balance
 	return balance
 
 
